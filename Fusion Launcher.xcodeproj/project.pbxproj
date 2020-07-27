@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FCA3C8E24CF2C0F004260A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA3C8D24CF2C0F004260A9 /* AppDelegate.swift */; };
+		5FCA3C9024CF2C0F004260A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA3C8F24CF2C0F004260A9 /* ViewController.swift */; };
+		5FCA3C9324CF2C0F004260A9 /* Fusion_Launcher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA3C9124CF2C0F004260A9 /* Fusion_Launcher.xcdatamodeld */; };
+		5FCA3C9524CF2C10004260A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA3C9424CF2C10004260A9 /* Assets.xcassets */; };
+		5FCA3C9824CF2C10004260A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FCA3C9624CF2C10004260A9 /* Main.storyboard */; };
+		5FCA3CA424CF2C10004260A9 /* Fusion_LauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA3CA324CF2C10004260A9 /* Fusion_LauncherTests.swift */; };
+		5FCA3CAF24CF2C10004260A9 /* Fusion_LauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCA3CAE24CF2C10004260A9 /* Fusion_LauncherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5FCA3CA024CF2C10004260A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FCA3C8224CF2C0F004260A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FCA3C8924CF2C0F004260A9;
+			remoteInfo = "Fusion Launcher";
+		};
+		5FCA3CAB24CF2C10004260A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5FCA3C8224CF2C0F004260A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5FCA3C8924CF2C0F004260A9;
+			remoteInfo = "Fusion Launcher";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5FCA3C8A24CF2C0F004260A9 /* Fusion Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fusion Launcher.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCA3C8D24CF2C0F004260A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5FCA3C8F24CF2C0F004260A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FCA3C9224CF2C0F004260A9 /* Fusion_Launcher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Fusion_Launcher.xcdatamodel; sourceTree = "<group>"; };
+		5FCA3C9424CF2C10004260A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5FCA3C9724CF2C10004260A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5FCA3C9924CF2C10004260A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCA3C9A24CF2C10004260A9 /* Fusion_Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Fusion_Launcher.entitlements; sourceTree = "<group>"; };
+		5FCA3C9F24CF2C10004260A9 /* Fusion LauncherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fusion LauncherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCA3CA324CF2C10004260A9 /* Fusion_LauncherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusion_LauncherTests.swift; sourceTree = "<group>"; };
+		5FCA3CA524CF2C10004260A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FCA3CAA24CF2C10004260A9 /* Fusion LauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fusion LauncherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FCA3CAE24CF2C10004260A9 /* Fusion_LauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fusion_LauncherUITests.swift; sourceTree = "<group>"; };
+		5FCA3CB024CF2C10004260A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5FCA3C8724CF2C0F004260A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3C9C24CF2C10004260A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3CA724CF2C10004260A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5FCA3C8124CF2C0F004260A9 = {
+			isa = PBXGroup;
+			children = (
+				5FCA3C8C24CF2C0F004260A9 /* Fusion Launcher */,
+				5FCA3CA224CF2C10004260A9 /* Fusion LauncherTests */,
+				5FCA3CAD24CF2C10004260A9 /* Fusion LauncherUITests */,
+				5FCA3C8B24CF2C0F004260A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5FCA3C8B24CF2C0F004260A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA3C8A24CF2C0F004260A9 /* Fusion Launcher.app */,
+				5FCA3C9F24CF2C10004260A9 /* Fusion LauncherTests.xctest */,
+				5FCA3CAA24CF2C10004260A9 /* Fusion LauncherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5FCA3C8C24CF2C0F004260A9 /* Fusion Launcher */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA3C8D24CF2C0F004260A9 /* AppDelegate.swift */,
+				5FCA3C8F24CF2C0F004260A9 /* ViewController.swift */,
+				5FCA3C9424CF2C10004260A9 /* Assets.xcassets */,
+				5FCA3C9624CF2C10004260A9 /* Main.storyboard */,
+				5FCA3C9924CF2C10004260A9 /* Info.plist */,
+				5FCA3C9A24CF2C10004260A9 /* Fusion_Launcher.entitlements */,
+				5FCA3C9124CF2C0F004260A9 /* Fusion_Launcher.xcdatamodeld */,
+			);
+			path = "Fusion Launcher";
+			sourceTree = "<group>";
+		};
+		5FCA3CA224CF2C10004260A9 /* Fusion LauncherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA3CA324CF2C10004260A9 /* Fusion_LauncherTests.swift */,
+				5FCA3CA524CF2C10004260A9 /* Info.plist */,
+			);
+			path = "Fusion LauncherTests";
+			sourceTree = "<group>";
+		};
+		5FCA3CAD24CF2C10004260A9 /* Fusion LauncherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5FCA3CAE24CF2C10004260A9 /* Fusion_LauncherUITests.swift */,
+				5FCA3CB024CF2C10004260A9 /* Info.plist */,
+			);
+			path = "Fusion LauncherUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FCA3C8924CF2C0F004260A9 /* Fusion Launcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCA3CB324CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion Launcher" */;
+			buildPhases = (
+				5FCA3C8624CF2C0F004260A9 /* Sources */,
+				5FCA3C8724CF2C0F004260A9 /* Frameworks */,
+				5FCA3C8824CF2C0F004260A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fusion Launcher";
+			productName = "Fusion Launcher";
+			productReference = 5FCA3C8A24CF2C0F004260A9 /* Fusion Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5FCA3C9E24CF2C10004260A9 /* Fusion LauncherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCA3CB624CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion LauncherTests" */;
+			buildPhases = (
+				5FCA3C9B24CF2C10004260A9 /* Sources */,
+				5FCA3C9C24CF2C10004260A9 /* Frameworks */,
+				5FCA3C9D24CF2C10004260A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FCA3CA124CF2C10004260A9 /* PBXTargetDependency */,
+			);
+			name = "Fusion LauncherTests";
+			productName = "Fusion LauncherTests";
+			productReference = 5FCA3C9F24CF2C10004260A9 /* Fusion LauncherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5FCA3CA924CF2C10004260A9 /* Fusion LauncherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FCA3CB924CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion LauncherUITests" */;
+			buildPhases = (
+				5FCA3CA624CF2C10004260A9 /* Sources */,
+				5FCA3CA724CF2C10004260A9 /* Frameworks */,
+				5FCA3CA824CF2C10004260A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5FCA3CAC24CF2C10004260A9 /* PBXTargetDependency */,
+			);
+			name = "Fusion LauncherUITests";
+			productName = "Fusion LauncherUITests";
+			productReference = 5FCA3CAA24CF2C10004260A9 /* Fusion LauncherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5FCA3C8224CF2C0F004260A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5FCA3C8924CF2C0F004260A9 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5FCA3C9E24CF2C10004260A9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5FCA3C8924CF2C0F004260A9;
+					};
+					5FCA3CA924CF2C10004260A9 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5FCA3C8924CF2C0F004260A9;
+					};
+				};
+			};
+			buildConfigurationList = 5FCA3C8524CF2C0F004260A9 /* Build configuration list for PBXProject "Fusion Launcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5FCA3C8124CF2C0F004260A9;
+			productRefGroup = 5FCA3C8B24CF2C0F004260A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FCA3C8924CF2C0F004260A9 /* Fusion Launcher */,
+				5FCA3C9E24CF2C10004260A9 /* Fusion LauncherTests */,
+				5FCA3CA924CF2C10004260A9 /* Fusion LauncherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5FCA3C8824CF2C0F004260A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCA3C9524CF2C10004260A9 /* Assets.xcassets in Resources */,
+				5FCA3C9824CF2C10004260A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3C9D24CF2C10004260A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3CA824CF2C10004260A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5FCA3C8624CF2C0F004260A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCA3C9024CF2C0F004260A9 /* ViewController.swift in Sources */,
+				5FCA3C8E24CF2C0F004260A9 /* AppDelegate.swift in Sources */,
+				5FCA3C9324CF2C0F004260A9 /* Fusion_Launcher.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3C9B24CF2C10004260A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCA3CA424CF2C10004260A9 /* Fusion_LauncherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5FCA3CA624CF2C10004260A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FCA3CAF24CF2C10004260A9 /* Fusion_LauncherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5FCA3CA124CF2C10004260A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FCA3C8924CF2C0F004260A9 /* Fusion Launcher */;
+			targetProxy = 5FCA3CA024CF2C10004260A9 /* PBXContainerItemProxy */;
+		};
+		5FCA3CAC24CF2C10004260A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5FCA3C8924CF2C0F004260A9 /* Fusion Launcher */;
+			targetProxy = 5FCA3CAB24CF2C10004260A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5FCA3C9624CF2C10004260A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5FCA3C9724CF2C10004260A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5FCA3CB124CF2C10004260A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5FCA3CB224CF2C10004260A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5FCA3CB424CF2C10004260A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fusion Launcher/Fusion_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Fusion Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5FCA3CB524CF2C10004260A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Fusion Launcher/Fusion_Launcher.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Fusion Launcher/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-Launcher";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5FCA3CB724CF2C10004260A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				INFOPLIST_FILE = "Fusion LauncherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fusion Launcher.app/Contents/MacOS/Fusion Launcher";
+			};
+			name = Debug;
+		};
+		5FCA3CB824CF2C10004260A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				INFOPLIST_FILE = "Fusion LauncherTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-LauncherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fusion Launcher.app/Contents/MacOS/Fusion Launcher";
+			};
+			name = Release;
+		};
+		5FCA3CBA24CF2C10004260A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				INFOPLIST_FILE = "Fusion LauncherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fusion Launcher";
+			};
+			name = Debug;
+		};
+		5FCA3CBB24CF2C10004260A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6G3XHCHANA;
+				INFOPLIST_FILE = "Fusion LauncherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "AEROFUSION-Studio.Fusion-LauncherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fusion Launcher";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5FCA3C8524CF2C0F004260A9 /* Build configuration list for PBXProject "Fusion Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCA3CB124CF2C10004260A9 /* Debug */,
+				5FCA3CB224CF2C10004260A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCA3CB324CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion Launcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCA3CB424CF2C10004260A9 /* Debug */,
+				5FCA3CB524CF2C10004260A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCA3CB624CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion LauncherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCA3CB724CF2C10004260A9 /* Debug */,
+				5FCA3CB824CF2C10004260A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FCA3CB924CF2C10004260A9 /* Build configuration list for PBXNativeTarget "Fusion LauncherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5FCA3CBA24CF2C10004260A9 /* Debug */,
+				5FCA3CBB24CF2C10004260A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5FCA3C9124CF2C0F004260A9 /* Fusion_Launcher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5FCA3C9224CF2C0F004260A9 /* Fusion_Launcher.xcdatamodel */,
+			);
+			currentVersion = 5FCA3C9224CF2C0F004260A9 /* Fusion_Launcher.xcdatamodel */;
+			path = Fusion_Launcher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5FCA3C8224CF2C0F004260A9 /* Project object */;
+}
